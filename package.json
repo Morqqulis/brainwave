@@ -15,6 +15,7 @@
       "react-dom": "^19.0.0-rc-935180c7e0-20240524",
       "react-just-parallax": "^3.1.16",
       "scroll-lock": "^2.1.5",
+      "sharp": "^0.33.4",
       "tailwindcss-animated": "^1.0.1"
    },
    "devDependencies": {

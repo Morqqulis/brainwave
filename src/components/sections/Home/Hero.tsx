@@ -1,19 +1,18 @@
 'use client'
+import { BackgroundCircles, BottomLine, Gradient } from '@design/Hero'
+import file02 from '@img/file-02.svg'
+
+import homeSmile from '@img/home-smile.svg'
+import plusSquare from '@img/plus-square.svg'
+import searchMd from '@img/search-md.svg'
 import Section from '@layout/Section'
 import Button from '@ui/Button'
-import Image from 'next/image'
-import curve from '@img/hero/curve.png'
-import robot from '@img/hero/robot.jpg'
-import homeSmile from '@img/home-smile.svg'
-import file02 from '@img/file-02.svg'
-import searchMd from '@img/search-md.svg'
-import plusSquare from '@img/plus-square.svg'
-import { BackgroundCircles, BottomLine, Gradient } from '@design/Hero'
-import { ScrollParallax } from 'react-just-parallax'
-import { useRef } from 'react'
+import CompanyLogos from '@ui/CompanyLogos'
 import Generating from '@ui/Generating'
 import Notification from '@ui/Notification'
-import CompanyLogos from '@ui/CompanyLogos'
+import Image from 'next/image'
+import { useRef } from 'react'
+import { ScrollParallax } from 'react-just-parallax'
 
 interface IHero {}
 const heroIcons = [homeSmile, file02, searchMd, plusSquare]
@@ -34,7 +33,7 @@ const Hero: React.FC<IHero> = (): JSX.Element => {
                      Brainwave
                      <Image
                         className={`absolute -bottom-2 left-0 w-full xl:-mt-2`}
-                        src={curve}
+                        src={'images/hero/curve.png'}
                         alt={`Curve`}
                         width={624}
                         height={28}
@@ -58,7 +57,7 @@ const Hero: React.FC<IHero> = (): JSX.Element => {
                      >
                         <Image
                            className={`w-full`}
-                           src={robot}
+                           src={'/images/hero/robot.jpg'}
                            alt={`AI`}
                            priority
                            width={1024}
@@ -104,7 +103,6 @@ const Hero: React.FC<IHero> = (): JSX.Element => {
                      priority
                      width={1440}
                      height={1800}
-                     placeholder="blur"
                   />
                </div>
                <BackgroundCircles parallaxRef={parallaxRef} />

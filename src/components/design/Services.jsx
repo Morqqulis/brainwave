@@ -1,9 +1,10 @@
+import Image from 'next/image'
 import ChatBubbleWing from './../svg/ChatBubbleWing'
 
 export const Gradient = () => {
    return (
       <div className="pointer-events-none absolute -left-[10rem] top-0 h-[56.625rem] w-[56.625rem] opacity-50 mix-blend-color-dodge">
-         <img
+         <Image
             className="absolute left-1/2 top-1/2 h-[88.5625rem] w-[79.5625rem] max-w-[79.5625rem] -translate-x-1/2 -translate-y-1/2"
             src={'/images/gradient.png'}
             width={1417}
@@ -28,7 +29,7 @@ export const VideoChatMessage = () => {
       <div className="absolute left-[3.125rem] top-8 w-full max-w-[14rem] rounded-t-xl rounded-br-xl bg-n-6 pb-7 pl-5 pr-2.5 pt-2.5 font-code text-base md:max-w-[17.5rem]">
          Video generated!
          <div className="absolute -bottom-[1.125rem] left-5 flex h-[2.25rem] w-[2.25rem] items-center justify-center rounded-[0.75rem] bg-color-1">
-            <img src={'/images/brainwave-symbol-white.svg'} width={26} height={26} alt="Brainwave" />
+            <Image src={'/images/brainwave-symbol-white.svg'} width={26} height={26} alt="Brainwave" />
          </div>
          <p className="tagline absolute bottom-1 right-2.5 text-[0.625rem] uppercase text-n-3">just now</p>
          <ChatBubbleWing className="absolute bottom-0 right-full -scale-x-100" pathClassName="fill-n-6" />
@@ -39,7 +40,7 @@ export const VideoChatMessage = () => {
 export const VideoBar = () => {
    return (
       <div className="absolute bottom-0 left-0 flex w-full items-center p-6">
-         <img src={'/images/play.svg'} width={24} height={24} alt="Play" className="mr-3 object-contain" />
+         <Image src={'/images/play.svg'} width={24} height={24} alt="Play" className="mr-3 object-contain" />
 
          <div className="flex-1 bg-[#D9D9D9]">
             <div className="h-0.5 w-1/2 bg-color-1"></div>

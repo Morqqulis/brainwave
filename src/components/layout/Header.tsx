@@ -4,7 +4,7 @@ import { disablePageScroll, enablePageScroll } from 'scroll-lock'
 
 import { navigation } from '@const/index'
 import { HamburgerMenu } from '@design/Header'
-import brainwave from '@img/brainwave.svg'
+
 import ButtonGradient from '@svg/ButtonGradient'
 import MenuSvg from '@svg/MenuSvg'
 import Button from '@ui/Button'
@@ -43,7 +43,7 @@ const Header: React.FC<IHeader> = (): JSX.Element => {
          >
             <div className={`flex items-center px-5 max-lg:py-4 lg:px-7.5 xl:px-10`}>
                <Link className={`block w-[12rem] xl:mr-8`} href={`/`}>
-                  <Image src={brainwave} alt={`Brainwave`} width={190} height={40} priority={true} />
+                  <Image src={'/images/brainwave.svg'} alt={`Brainwave`} width={190} height={40} priority={true} />
                </Link>
 
                <nav

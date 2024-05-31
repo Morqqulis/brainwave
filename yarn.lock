@@ -2050,7 +2050,7 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
-"next@^15.0.0-rc.0 --turbo":
+next@^15.0.0-rc.0:
   version "15.0.0-rc.0"
   resolved "https://registry.yarnpkg.com/next/-/next-15.0.0-rc.0.tgz#ec9440e10c40f7f8c04487bd58aa970553d8148e"
   integrity sha512-IWcCvxUSCAuOK5gig4+9yiyt/dLKpIa+WT01Qcx4CBE4TtwJljyTDnCVVn64jDZ4qmSzsaEYXpb4DTI8qbk03A==
