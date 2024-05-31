@@ -1,4 +1,3 @@
-import background from '@img/background.jpg'
 import Image from 'next/image'
 
 export const Rings = () => {
@@ -35,7 +34,7 @@ export const HamburgerMenu = () => {
          <div className="absolute inset-0 opacity-[.03]">
             <Image
                className="h-full w-full object-cover"
-               src={background}
+               src={'/images/background.jpg'}
                width={688}
                height={953}
                alt="Background"
