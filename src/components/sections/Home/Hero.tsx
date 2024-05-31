@@ -8,7 +8,6 @@ import homeSmile from '@img/home-smile.svg'
 import file02 from '@img/file-02.svg'
 import searchMd from '@img/search-md.svg'
 import plusSquare from '@img/plus-square.svg'
-import heroBackground from '@img/hero/hero-background.jpg'
 import { BackgroundCircles, BottomLine, Gradient } from '@design/Hero'
 import { ScrollParallax } from 'react-just-parallax'
 import { useRef } from 'react'
@@ -100,7 +99,7 @@ const Hero: React.FC<IHero> = (): JSX.Element => {
                >
                   <Image
                      className={`w-full translate-y-[8%] scale-[1.7] md:-translate-y-[10%] md:scale-100 lg:-translate-y-[23%]`}
-                     src={heroBackground}
+                     src={'/images/hero/hero-background.jpg'}
                      alt={`hero`}
                      priority
                      width={1440}
