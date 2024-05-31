@@ -1,6 +1,5 @@
 import { roadmap } from '@const/index'
 import { Gradient } from '@design/Services'
-import { grid } from '@img/index'
 import Section from '@layout/Section'
 import Button from '@ui/Button'
 import Heading from '@ui/Heading'
@@ -28,7 +27,7 @@ const Roadmap: React.FC = (): JSX.Element => {
                      >
                         <div className="relative overflow-hidden rounded-[2.4375rem] bg-n-8 p-8 xl:p-15">
                            <div className="absolute left-0 top-0 max-w-full">
-                              <img className="w-full" src={'/images/grid.png'} width={550} height={550} alt="Grid" />
+                              <Image className="w-full" src={'/images/grid.png'} width={550} height={550} alt="Grid" />
                            </div>
                            <div className="relative z-1">
                               <div className="mb-8 flex max-w-[27rem] items-center justify-between md:mb-20">
@@ -47,7 +46,7 @@ const Roadmap: React.FC = (): JSX.Element => {
                               </div>
 
                               <div className="-mx-15 -my-10 mb-10">
-                                 <img
+                                 <Image
                                     className="w-full"
                                     src={item.imageUrl}
                                     width={628}
