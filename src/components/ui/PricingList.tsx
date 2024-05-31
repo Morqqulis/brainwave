@@ -24,7 +24,7 @@ const PricingList: React.FC<IPricingList> = (): JSX.Element => {
                   )}
                </div>
                {/* white={!!item.price} for button props */}
-               <Button className={`mb-6 w-full`} href={'mailto:morqqulis@gmail.com'}>
+               <Button className={`mb-6 w-full`} href={'#'}>
                   {item.price ? 'Get Started' : 'Coming Soon'}
                </Button>
 

@@ -40,7 +40,7 @@ const Hero: React.FC<IHero> = (): JSX.Element => {
                   Unleash the power of AI within Brainwave. Upgrade your productivity with Brainwave, the open AI chat
                   app.
                </h2>
-               <Button href={'/pricing'} white>
+               <Button href={'/#pricing'} white>
                   Get Started
                </Button>
             </div>
@@ -96,6 +96,7 @@ const Hero: React.FC<IHero> = (): JSX.Element => {
                      alt={`hero`}
                      width={1440}
                      height={1800}
+                     priority={true}
                   />
                </div>
                <BackgroundCircles parallaxRef={parallaxRef} />
