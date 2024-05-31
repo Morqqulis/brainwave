@@ -55,8 +55,8 @@ const Hero: React.FC<IHero> = (): JSX.Element => {
                            className={`w-full`}
                            src={'/images/hero/robot.jpg'}
                            alt={`AI`}
-                           width={1024}
-                           height={490}
+                           width={1034}
+                           height={1512}
                         />
 
                         <ScrollParallax isAbsolutelyPositioned>
@@ -71,7 +71,7 @@ const Hero: React.FC<IHero> = (): JSX.Element => {
                            >
                               {heroIcons.map((icon, index) => (
                                  <li className={`p-5`} key={index}>
-                                    <Image className={``} src={icon} alt={`icon`} width={24} height={25} />
+                                    <Image className={``} src={icon} alt={`icon`} width={24} height={24} />
                                  </li>
                               ))}
                            </ul>
@@ -94,7 +94,6 @@ const Hero: React.FC<IHero> = (): JSX.Element => {
                      className={`w-full translate-y-[8%] scale-[1.7] md:-translate-y-[10%] md:scale-100 lg:-translate-y-[23%]`}
                      src={'/images/hero/hero-background.jpg'}
                      alt={`hero`}
-                     priority
                      width={1440}
                      height={1800}
                   />

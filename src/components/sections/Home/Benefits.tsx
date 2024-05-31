@@ -39,8 +39,8 @@ const Benefits: React.FC = (): JSX.Element => {
                                  className={`absolute inset-0.5 h-full w-full object-cover`}
                                  src={benefit.imageUrl}
                                  alt={benefit.title}
-                                 width={380}
-                                 height={380}
+                                 width={760}
+                                 height={724}
                               />
                            )}
                         </div>

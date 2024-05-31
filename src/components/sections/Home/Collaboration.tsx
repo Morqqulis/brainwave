@@ -9,10 +9,10 @@ const Collaboration: React.FC = (): JSX.Element => {
    return (
       <Section crosses={true} id={'collaboration'}>
          <div className="container lg:flex">
-            <div className={`max-w-[25rem]`}>
+            <div className={`md:ml-12 lg:max-w-[25rem]  `}>
                <h2 className={`h2 mb-4 md:mb-8`}>AI Chat App for seamless collaboration</h2>
 
-               <ul className={`mb-10 max-w-[22rem] md:mb-14`}>
+               <ul className={`mb-10 max-w-full md:mb-14 lg:max-w-[22rem]`}>
                   {collabContent.map((item) => (
                      <li className={`mb-3 py-3`} key={item.id}>
                         <div className={`flex items-center gap-5`}>
@@ -25,11 +25,15 @@ const Collaboration: React.FC = (): JSX.Element => {
                   ))}
                </ul>
 
-               <Button>Try it now</Button>
+               <Button className={`w-full md:w-auto`}>Try it now</Button>
             </div>
 
-            <div className={`mt-4 lg:ml-auto xl:w-[38rem]`}>
-               <p className={`body-2 mb-4 text-n-4 md:mb-16 lg:mx-auto lg:mb-32 lg:w-[22rem]`}>{collabText}</p>
+            <div className={`mt-4 lg:ml-auto lg:mr-12 xl:w-[38rem]`}>
+               <p
+                  className={`body-2 mb-4 mt-10 text-center text-n-4 md:mb-16 lg:mx-auto lg:mb-32 lg:w-[22rem] lg:text-left`}
+               >
+                  {collabText}
+               </p>
                <div
                   className={`relative left-1/2 flex aspect-square w-[22rem] -translate-x-1/2 scale-75 rounded-full border border-n-6 md:scale-100`}
                >
