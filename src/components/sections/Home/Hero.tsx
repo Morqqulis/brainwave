@@ -55,7 +55,6 @@ const Hero: React.FC<IHero> = (): JSX.Element => {
                            className={`w-full`}
                            src={'/images/hero/robot.jpg'}
                            alt={`AI`}
-                           priority
                            width={1024}
                            height={490}
                         />
