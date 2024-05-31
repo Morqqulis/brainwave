@@ -16,7 +16,7 @@ const Collaboration: React.FC = (): JSX.Element => {
                   {collabContent.map((item) => (
                      <li className={`mb-3 py-3`} key={item.id}>
                         <div className={`flex items-center gap-5`}>
-                           <Image src={'/images/check.svg'} alt={item.title} width={24} height={24} />
+                           <Image src={'/images/check.svg'} alt={'icon'} width={24} height={24} />
                            <h6 className={`body-2`}>{item.title}</h6>
                         </div>
 
@@ -61,7 +61,7 @@ const Collaboration: React.FC = (): JSX.Element => {
                               <Image
                                  className={`m-auto`}
                                  src={app.icon}
-                                 alt={app.title}
+                                 alt={'App Icon'}
                                  width={app.width}
                                  height={app.width}
                               />

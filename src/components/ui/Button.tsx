@@ -17,7 +17,7 @@ const Button: React.FC<IButton> = ({ children, className, href, onClick, px, whi
    } ${white ? 'text-n-8' : 'text-n-1'} ${className || ''}`
    const spanClasses = 'relative z-10'
    const renderButton = () => (
-      <button className={classes} onClick={onClick}>
+      <button className={classes} onClick={onClick} type={'button'} aria-label={'button'} value={'button'}>
          {ButtonSvg(white)}
          <span className={spanClasses}>{children}</span>
       </button>

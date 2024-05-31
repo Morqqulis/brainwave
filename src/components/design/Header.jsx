@@ -35,10 +35,9 @@ export const HamburgerMenu = () => {
             <Image
                className="h-full w-full object-cover"
                src={'/images/background.jpg'}
-               width={688}
-               height={953}
+               width={1376}
+               height={1906}
                alt="Background"
-               priority
             />
          </div>
 
