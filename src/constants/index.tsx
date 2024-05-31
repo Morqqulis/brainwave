@@ -1,41 +1,3 @@
-import {
-   benefitIcon1,
-   benefitIcon2,
-   benefitIcon3,
-   benefitIcon4,
-   benefitImage2,
-   chromecast,
-   disc02,
-   discord,
-   discordBlack,
-   facebook,
-   figma,
-   file02,
-   framer,
-   homeSmile,
-   instagram,
-   notification2,
-   notification3,
-   notification4,
-   notion,
-   photoshop,
-   plusSquare,
-   protopie,
-   raindrop,
-   recording01,
-   recording03,
-   roadmap1,
-   roadmap2,
-   roadmap3,
-   roadmap4,
-   searchMd,
-   slack,
-   sliders04,
-   telegram,
-   twitter,
-   yourlogo,
-} from '@img/index'
-
 export const navigation = [
    {
       id: '0',
@@ -71,15 +33,36 @@ export const navigation = [
    },
 ]
 
-export const heroIcons = [homeSmile, file02, searchMd, plusSquare]
+export const heroIcons = [
+   '/images/home-smile.svg',
+   '/images/file-02.svg',
+   '/images/search-md.svg',
+   '/images/plus-square.svg',
+]
 
-export const notificationImages = [notification4, notification3, notification2]
+export const notificationImages = [
+   '/images/notification/image-4.png',
+   '/images/notification/image-3.png',
+   '/images/notification/image-2.png',
+]
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo]
+export const companyLogos = [
+   '/images/yourlogo.svg',
+   '/images/yourlogo.svg',
+   '/images/yourlogo.svg',
+   '/images/yourlogo.svg',
+   '/images/yourlogo.svg',
+]
 
 export const brainwaveServices = ['Photo generating', 'Photo enhance', 'Seamless Integration']
 
-export const brainwaveServicesIcons = [recording03, recording01, disc02, chromecast, sliders04]
+export const brainwaveServicesIcons = [
+   '/images/recording-03.svg',
+   '/images/recording-01.svg',
+   '/images/disc-02.svg',
+   '/images/chrome-cast.svg',
+   '/images/sliders-04.svg',
+]
 
 export const roadmap = [
    {
@@ -140,56 +123,56 @@ export const collabApps = [
    {
       id: '0',
       title: 'Figma',
-      icon: figma,
+      icon: '/images/collaboration/figma.png',
       width: 26,
       height: 36,
    },
    {
       id: '1',
       title: 'Notion',
-      icon: notion,
+      icon: '/images/collaboration/notion.png',
       width: 34,
       height: 36,
    },
    {
       id: '2',
       title: 'Discord',
-      icon: discord,
+      icon: '/images/collaboration/discord.png',
       width: 36,
       height: 28,
    },
    {
       id: '3',
       title: 'Slack',
-      icon: slack,
+      icon: '/images/collaboration/slack.png',
       width: 34,
       height: 35,
    },
    {
       id: '4',
       title: 'Photoshop',
-      icon: photoshop,
+      icon: '/images/collaboration/photoshop.png',
       width: 34,
       height: 34,
    },
    {
       id: '5',
       title: 'Protopie',
-      icon: protopie,
+      icon: '/images/collaboration/protopie.png',
       width: 34,
       height: 34,
    },
    {
       id: '6',
       title: 'Framer',
-      icon: framer,
+      icon: '/images/collaboration/framer.png',
       width: 26,
       height: 34,
    },
    {
       id: '7',
       title: 'Raindrop',
-      icon: raindrop,
+      icon: '/images/collaboration/raindrop.png',
       width: 38,
       height: 32,
    },
@@ -237,16 +220,16 @@ export const benefits = [
       title: 'Ask anything',
       text: 'Lets users quickly find answers to their questions without having to search through multiple sources.',
       backgroundUrl: '/images/benefits/card-1.svg',
-      iconUrl: benefitIcon1,
-      imageUrl: benefitImage2,
+      iconUrl: '/images/benefits/icon-1.svg',
+      imageUrl: '/images/benefits/image-2.png',
    },
    {
       id: '1',
       title: 'Improve everyday',
       text: 'The app uses natural language processing to understand user queries and provide accurate and relevant responses.',
       backgroundUrl: '/images/benefits/card-2.svg',
-      iconUrl: benefitIcon2,
-      imageUrl: benefitImage2,
+      iconUrl: '/images/benefits/icon-2.svg',
+      imageUrl: '/images/benefits/image-2.png',
       light: true,
    },
    {
@@ -254,16 +237,16 @@ export const benefits = [
       title: 'Connect everywhere',
       text: 'Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.',
       backgroundUrl: '/images/benefits/card-3.svg',
-      iconUrl: benefitIcon3,
-      imageUrl: benefitImage2,
+      iconUrl: '/images/benefits/icon-3.svg',
+      imageUrl: '/images/benefits/image-2.png',
    },
    {
       id: '3',
       title: 'Fast responding',
       text: 'Lets users quickly find answers to their questions without having to search through multiple sources.',
       backgroundUrl: '/images/benefits/card-4.svg',
-      iconUrl: benefitIcon4,
-      imageUrl: benefitImage2,
+      iconUrl: '/images/benefits/icon-4.svg',
+      imageUrl: '/images/benefits/image-2.png',
       light: true,
    },
    {
@@ -271,16 +254,16 @@ export const benefits = [
       title: 'Ask anything',
       text: 'Lets users quickly find answers to their questions without having to search through multiple sources.',
       backgroundUrl: '/images/benefits/card-5.svg',
-      iconUrl: benefitIcon1,
-      imageUrl: benefitImage2,
+      iconUrl: '/images/benefits/icon-1.svg',
+      imageUrl: '/images/benefits/image-2.png',
    },
    {
       id: '5',
       title: 'Improve everyday',
       text: 'The app uses natural language processing to understand user queries and provide accurate and relevant responses.',
       backgroundUrl: '/images/benefits/card-6.svg',
-      iconUrl: benefitIcon2,
-      imageUrl: benefitImage2,
+      iconUrl: '/images/benefits/icon-2.svg',
+      imageUrl: '/images/benefits/image-2.png',
       light: true,
    },
 ]
@@ -289,31 +272,31 @@ export const socials = [
    {
       id: '0',
       title: 'Discord',
-      iconUrl: discordBlack,
+      iconUrl: '/images/socials/discord.svg',
       url: '#',
    },
    {
       id: '1',
       title: 'Twitter',
-      iconUrl: twitter,
+      iconUrl: '/images/socials/twitter.svg',
       url: '#',
    },
    {
       id: '2',
       title: 'Instagram',
-      iconUrl: instagram,
+      iconUrl: '/images/socials/instagram.svg',
       url: '#',
    },
    {
       id: '3',
       title: 'Telegram',
-      iconUrl: telegram,
+      iconUrl: '/images/socials/telegram.svg',
       url: '#',
    },
    {
       id: '4',
       title: 'Facebook',
-      iconUrl: facebook,
+      iconUrl: '/images/socials/facebook.svg',
       url: '#',
    },
 ]

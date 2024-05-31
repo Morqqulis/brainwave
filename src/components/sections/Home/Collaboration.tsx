@@ -1,5 +1,4 @@
 import { collabApps, collabContent, collabText } from '@const/index'
-import { brainwaveSymbol } from '@img/index'
 import Section from '@layout/Section'
 import Button from '@ui/Button'
 import Image from 'next/image'
@@ -37,7 +36,12 @@ const Collaboration: React.FC = (): JSX.Element => {
                   <div className={`m-auto flex aspect-square w-60 rounded-full border border-n-6`}>
                      <div className={`m-auto aspect-square w-[6rem] rounded-full bg-conic-gradient p-[0.2rem]`}>
                         <div className={`flex h-full w-full items-center justify-center rounded-full bg-n-8`}>
-                           <Image src={'/images/brainwave-symbol.svg'} alt={`Brainwave Symbol`} width={48} height={48} />
+                           <Image
+                              src={'/images/brainwave-symbol.svg'}
+                              alt={`Brainwave Symbol`}
+                              width={48}
+                              height={48}
+                           />
                         </div>
                      </div>
                   </div>
