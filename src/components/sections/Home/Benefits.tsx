@@ -11,9 +11,9 @@ const Benefits: React.FC = (): JSX.Element => {
    return (
       <Section id={'features'}>
          <div className={`container relative z-2`}>
-            <Heading className={`text-center mx-auto`} title={'Chat Smarter, Not Harder with Brainwave'} />
+            <Heading className={`mx-auto text-center`} title={'Chat Smarter, Not Harder with Brainwave'} />
 
-            <div className="mb-10 grid grid-cols-1 justify-items-center md:grid-cols-2 lg:grid-cols-3 gap-10">
+            <div className="mb-10 grid grid-cols-1 justify-items-center gap-10 md:grid-cols-2 lg:grid-cols-3">
                {benefits.map((benefit, index) => (
                   <div
                      className={`relative block bg-[length:100%_100%] bg-no-repeat p-0.5 md:max-w-[24rem]`}

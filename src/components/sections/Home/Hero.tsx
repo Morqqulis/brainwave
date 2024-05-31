@@ -1,10 +1,6 @@
 'use client'
 import { BackgroundCircles, BottomLine, Gradient } from '@design/Hero'
-import file02 from '@img/file-02.svg'
 
-import homeSmile from '@img/home-smile.svg'
-import plusSquare from '@img/plus-square.svg'
-import searchMd from '@img/search-md.svg'
 import Section from '@layout/Section'
 import Button from '@ui/Button'
 import CompanyLogos from '@ui/CompanyLogos'
@@ -15,7 +11,7 @@ import { useRef } from 'react'
 import { ScrollParallax } from 'react-just-parallax'
 
 interface IHero {}
-const heroIcons = [homeSmile, file02, searchMd, plusSquare]
+const heroIcons = ['/images/home-smile.svg', '/images/file-02.svg', '/images/search-md.svg', '/images/plus-square.svg']
 
 const Hero: React.FC<IHero> = (): JSX.Element => {
    const parallaxRef = useRef(null)
@@ -33,7 +29,7 @@ const Hero: React.FC<IHero> = (): JSX.Element => {
                      Brainwave
                      <Image
                         className={`absolute -bottom-2 left-0 w-full xl:-mt-2`}
-                        src={'images/hero/curve.png'}
+                        src={'/images/hero/curve.png'}
                         alt={`Curve`}
                         width={624}
                         height={28}
@@ -62,7 +58,6 @@ const Hero: React.FC<IHero> = (): JSX.Element => {
                            priority
                            width={1024}
                            height={490}
-                           placeholder="blur"
                         />
 
                         <ScrollParallax isAbsolutelyPositioned>
