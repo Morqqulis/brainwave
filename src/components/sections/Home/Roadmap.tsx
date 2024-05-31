@@ -39,7 +39,7 @@ const Roadmap: React.FC = (): JSX.Element => {
                                        src={item.status === 'done' ? '/images/check.svg' : '/images/loading-01.svg'}
                                        width={16}
                                        height={16}
-                                       alt={status}
+                                       alt={'Check'}
                                     />
                                     <div className="tagline">{status}</div>
                                  </div>

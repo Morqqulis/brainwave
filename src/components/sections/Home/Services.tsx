@@ -35,7 +35,7 @@ const Services: React.FC = (): JSX.Element => {
                      <ul className={`body-2`}>
                         {brainwaveServices.map((service, index) => (
                            <li className={`mb-3 flex items-start gap-4 border-t border-n-6 py-4`} key={index}>
-                              <Image className={``} src={'/images/check.svg'} alt={service} width={24} height={24} />
+                              <Image className={``} src={'/images/check.svg'} alt={`icon`} width={24} height={24} />
                               <p className={`body-2`}>{service}</p>
                            </li>
                         ))}
